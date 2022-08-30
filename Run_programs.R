@@ -33,7 +33,7 @@ rm(list=ls(all=TRUE))
 source("programs/prepare.R")
 
 #### turn warnings off globally
-# options(warn=-1)
+options(warn=-1)
 
 #### Ring-specific bulk density
 ### 3 depths profile: 0 - 10,
